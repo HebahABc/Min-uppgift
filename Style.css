@@ -1,0 +1,1494 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------- Language and currency --------------------- */
+
+.Toolbar {
+    width:100%;
+    background-color:#20D3C2;
+    height: 25px;
+}
+.Toolbar .Language {
+    cursor: pointer;
+}
+.Toolbar .Currency {
+    cursor: pointer;
+}
+.Options select:hover{
+    background-color: #0E153D;
+}
+
+.Options {
+    padding: 0;
+    margin-left: 200px;
+    margin-top: 5px;
+    float:left;
+    transition: all 0.3s;
+}
+.Options select {
+    border: none;
+    background-color: #20D3C2;
+    color:aliceblue;
+    padding: 0;
+    float: left;
+    transition: all 0.3s;
+}
+
+/*-------------------- Contact us --------------------- */
+
+.Navigation {
+    float: right;
+    margin-right: 150px;
+}
+.Navigation ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.Navigation > ul > li {
+    float: left;
+    padding: 0 3px;
+}
+
+
+.Navigation .item {
+    display: inline-block;
+    padding: 5px 6.7px;
+    height: 12.5px;
+    line-height: 12.2px;
+    text-decoration: none;
+    color:white;
+    transition: all 0.3s;
+}
+
+.Navigation .icon {
+    display: inline-block;
+    height: 12.5px;
+    line-height: 12.2px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.Navigation .item:hover {
+background-color:#0E153D;
+}
+
+/*-------------------- Social Media --------------------- */
+
+.Social-media {
+    display:flex;
+    width: 100px;
+    height: 25px;
+    padding: 0;
+    flex-direction: row;
+    position: relative;
+    left:15px;
+    bottom: 5px;
+}
+
+.Social-media div {
+    padding: 0;
+    width: 20%;
+    margin: auto;
+}
+.Social-media span{
+    color: #fff;
+}
+.Social-media span:hover{
+    color: #0E153D;
+}
+
+.Social-media .bi {
+    float: right;
+    margin-top: 10px;
+}
+
+/*-------------------- Logo --------------------- */
+
+.search-shopping-bar{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top:20px;
+}
+
+#Logo {
+    position: relative;
+    top: 15px;
+    left: 100px;
+    padding:0;
+    float: left;
+}
+
+/*-------------------- Search Bar --------------------- */
+
+.Search-box {
+    padding: 0;
+    position: relative;
+    left:130px;
+    width:350px;
+    height: 35px;
+}
+
+.Search-bar {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    border-radius: 25px; 
+    font-size: medium;
+    margin-top: 8px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.Seaech-button {
+    position:absolute;
+    right: -160px;
+    bottom: -8px;
+    border-radius:  0 25px 25px 0;
+    height:100%;
+    width:50px;
+    border: none;
+    background-color:#20D3C2 ;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.Seaech-button:hover{
+    background-color:#0E153D;   
+}
+
+.Second-bar {
+    margin-left: 100px;
+}
+
+/*-------------------- Shopping Bar --------------------- */
+
+.Shopping-bar{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    height:fit-content;
+    justify-content: center;
+    position: relative;
+    float: right;
+    right: 200px;
+    bottom: 20px;
+}
+
+.Shopping-bar span{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Shopping-bar a{
+    padding: 0 10px;
+}
+.Shopping-bar i{
+    color: #000;
+    font-size: 20px;
+}
+.Shopping-bar .bi{
+    color: #000;
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+}
+.Shopping-bar a {
+    text-decoration: none;
+}
+.Shopping-bar i:hover{
+    color: #20D3C2;
+}
+
+
+ .badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: #20D3C2;
+    border-radius:43%;
+    padding:3px;
+    width: 25px;
+    height: 10px;
+    position:absolute;
+    text-align: center;
+    right: 20px;
+    top:-10px;
+    }
+#counter .badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: #20D3C2;
+    border-radius:43%;
+    padding:3px;
+    width: 25px;
+    height: 10px;
+    position:absolute;
+    text-align: center;
+    right: 90px;
+    top:-15px;
+}    
+/*-------------------- First Line --------------------- */
+
+#First-line{
+    margin-top: 30px;
+}
+
+/*-------------------- Dropdown Menu --------------------- */
+
+.fas {
+    float: right;
+    padding-top: 3px;
+}
+
+
+.Menu {
+    width:220px;
+    height: 40px;
+    background-color: #20D3C2 ;
+    position: relative;
+    left: 200px;
+    top:-9px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.Menu:hover{
+    background-color: #0E153D;
+}
+
+.Menu > ul {
+    list-style: none;
+    margin: auto;
+    width: 100%;
+}
+
+.Menu ul li {
+    padding: 10px 30px;
+}
+
+.Menu  ul  li a {
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.Menu ul li a:hover {
+    color: #20D3C2;
+}
+
+/*-------------------- 2nd Sub Menu --------------------- */
+
+.Sub-menu {
+    display: none;
+}
+
+.Menu ul li:hover .Sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left: 10;
+    margin-top: 10px;
+}
+
+.Sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.Sub-menu ul li {
+    padding: 10px;
+}
+
+.material-icons {
+    position: relative;
+    right: 10px;
+    top:5px;
+}
+
+.label {
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+
+/*-------------------- Women-sub Menu --------------------- */
+
+#women-sub-menu {
+    display: none;
+}
+
+.Sub-menu ul li:hover #women-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:200px;
+    top: 10px;
+}
+#women-sub-menu li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-------------------- men-sub Menu --------------------- */
+
+#men-sub-menu {
+    display: none;
+}
+.Sub-menu ul li:hover #men-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:200px;
+    top: 50px;
+}
+#men-sub-menu li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+/*-------------------- Kids-sub Menu --------------------- */
+
+#kids-sub-menu {
+    display: none;
+}
+.Sub-menu ul li:hover #kids-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:200px;
+    top: 100px;
+}
+#kids-sub-menu li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-------------------- 3nd Sub Menu --------------------- */
+
+/*-------------------- Women 3nd Sub Menu --------------------- */
+
+#women-3rd-sub-menu {
+    display: none;
+}
+
+#women-sub-menu li:hover #women-3rd-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:230px;
+    top: 150px;
+}
+
+#women-3rd-sub-menu li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-------------------- Men 3nd Sub Menu --------------------- */
+
+#men-3rd-sub-menu {
+    display: none;
+}
+
+#men-sub-menu li:hover #men-3rd-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:230px;
+    top: 150px;
+}
+
+#men-3rd-sub-menu li {
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-------------------- Kids 3nd Sub Menu --------------------- */
+
+#kids-3rd-sub-menu {
+    display: none;
+}
+
+#kids-sub-menu li:hover #kids-3rd-sub-menu {
+    display: block;
+    background-color: #0E153D;
+    position: absolute;
+    width: 100%;
+    left:230px;
+    top: 150px;
+}
+
+#kids-3rd-sub-menu li {
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-------------------- Spical Offer Button --------------------- */
+
+.Special-offer {
+    float: right;
+    background-color: #20D3C2 ;
+    border: none;
+    border-radius: 25px;
+    width: 140px;
+    height: 30px;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    box-decoration-break: clone;
+    position: relative;
+    right: 200px;
+    bottom: 43px;
+    transition: 0.3s;
+}
+.Special-offer:hover{
+    background-color: #0E153D;
+}
+
+hr{
+    border:1px solid #E3E3E3;
+}
+
+/*-------------------- The Banner --------------------- */
+
+.Banner1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(141, 137, 137, 0.187);
+    position: relative;
+    bottom: 39px;
+}
+
+.Banner1 > div {
+    width:50%;
+    height: 100%;
+    margin: auto;
+}
+
+.Banner0 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    position: relative;
+    left: 120px;
+}
+
+.Banner0 div {
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+}
+
+#Shopping {
+    color: #000;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+}
+
+#More {
+    Color: #20D3C2;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 100px;
+}
+
+.Shop-now1 {
+    float:left;
+    background-color:white ;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    color: #20D3C2;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Shop-now1:hover {
+    background-color: #20D3C2;
+    color: #fff;
+}
+
+/*-------------------- Services bar --------------------- */
+.Services > div {
+    width: 300px;
+    background-color: #EDFCFA;
+    display: flex;
+    height: 100px;
+}
+.Services #img {
+    width: 35%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.Services h1 {
+    color: #20D3C2;
+    font-size: 18px;
+}
+.Services p {
+    font-size: 13px;
+}
+
+.Services {
+    display: flex;
+    width: 90%;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+.Services div {
+    margin: 10px ;
+    transition: 0.15s;
+}
+.Services div:hover {
+    background-color: #20D3C2;
+    color:#fff;
+}
+.Services div:hover h1 {
+    color:#fff;
+}
+.Services div:hover img {
+    filter: brightness(1000%); 
+}
+/*-------------------- Shop By Category --------------------- */
+
+.Shop-by-category {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 80px;
+}
+
+.Shop-by-category span {
+    color:#20D3C2
+}
+#Text {
+   font-size: 15px;
+   margin-top: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*-------------------- Shop By Category Grid --------------------- */
+
+.Grid {
+    margin-top: 25px;
+    height: 450px;
+    width: 750px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 6px;   
+}
+
+.Grid > div {
+    background-color: #CCCCCC;
+    color:#20D3C2;
+    cursor: pointer;
+}
+.Elements > div {
+    background-color: #0E153D;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 0 5px 0 0;
+    text-align: left;
+    padding: 8px;
+    width: 60%;
+    transition: 3s;
+}
+#Men {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    position: relative;
+    border-radius: 5px;
+}
+#Women {
+    grid-column: 3/7 ;
+    grid-row: 1/3;
+    position: relative;
+    border-radius: 5px;
+}
+#Kids {
+    grid-column: 7/11;
+    grid-row: 1/5;
+    position: relative;
+    border-radius: 5px;
+}
+#Shoes {
+    grid-column: 1/5;
+    grid-row: 3/7;
+    position: relative;
+    border-radius: 5px;
+}
+#Hats {
+    grid-column: 5/7;
+    grid-row: 3/5;
+    position: relative;
+    border-radius: 5px;
+}
+#Sunglasses {
+    grid-column: 5/9;
+    grid-row: 5/7;
+    position: relative;
+    border-radius: 5px;
+}
+#Watches {
+    grid-column: 9/11;
+    grid-row: 5/7;
+    position: relative;
+    border-radius: 5px;
+}
+
+.Elements:hover div{
+    height: 35px;
+}
+
+.Elements section {
+    overflow: hidden;
+}
+#numbers{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    bottom: -30px;
+    left:5px;
+}
+.Elements:hover #numbers{
+    bottom: 4%;
+}
+
+.Elements  {
+    transition: 0.3s;
+}
+
+/*-------------------- New Arrivals Grid --------------------- */
+
+.P1 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/product_1-removebg-preview.png);
+    background-size: cover;
+    overflow: hidden; 
+}
+.P2 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/product_2-removebg-preview.png);
+    background-size: cover;
+    overflow: hidden;    
+}
+.P3 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/product_3-removebg-preview.png);
+    background-size: cover;
+    overflow: hidden; 
+}
+
+.card-menu {
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+   height:150px;
+   border-radius: 25px;
+   justify-content: center;
+   float: right;
+   background-color: #fff;
+   position: absolute;
+   right: 10px;
+   top:100%;
+   transition: 0.3s;
+   z-index: 1;
+}
+
+.Card:hover .card-menu{
+    top: 10px;
+}
+
+.card-menu i {
+   padding: 5px;
+   color: #AAAAAA;
+}
+.card-menu i:hover{
+    color: #20D3C2;
+}
+.card-body section {
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding: 5px;
+    margin-left: 10px;
+}
+#fashion {
+    border: 1px solid #fff;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13;
+}
+#price-befor{
+    font-size: 13px;
+}
+#price-after{
+    font-size: 20;
+    color: #20D3C2;
+    margin-left: 15px;
+}
+.background{
+    position: absolute;
+    bottom: 0;
+    background-color: #0E153D;
+    height: 12%;
+    width: 100%;
+    
+    transition: 0.3s;
+}
+.card-body{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: 1;
+}
+.Card:hover .background {
+    height: 100%;
+    opacity: 0.8;
+}
+.card:hover .card-body{
+    bottom: 35%;
+}
+
+.inner-body {
+    position: absolute;
+    left:0;
+    top:100%;
+    transition: 0.3s;
+}
+
+.Grid-2 > div {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.Grid-2 {
+    margin-top: 25px;
+    display: grid;
+    height: 300px;
+    width: 800px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+
+
+/*-------------------- The gray bar --------------------- */
+
+.Gray-bar {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-color: #CCCCCC;
+    display: flex;
+}
+#Gray-bar-right {
+    width: 50%;
+    position: relative;
+}
+#Gray-bar-left{
+    width: 50%;
+    position: relative;
+}
+#left {
+    width: 150px;
+    height: 100%;
+    background-color: #20D3C2;
+    position: absolute;
+    right: 200px;
+}
+#right {
+    height: 100%;
+    position: absolute;
+    left: 80px;
+}
+#no {
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+
+#shop-now {
+    background-color: #0E153D;
+    color: #fff;
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+#shop-now:hover{
+    color: #20D3C2;
+}
+#New-customer{
+    color: #fff;
+    font-size: 10;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 30px;
+}
+#left div {
+    padding: 15px;
+}
+#no span {
+    font-size: 15;
+}
+#bar-txt {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    margin-top: 50px;
+}
+#gray-bar-text {
+    width: 400px;
+    height: 100%;
+}
+#learn-more{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    color: #20D3C2;
+    width: 130px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+#learn-more:hover{
+    background-color: #20D3C2;
+    color: #fff;
+}
+
+
+/*-------------------- Feature Products Grid --------------------- */
+
+.Grid-3 {
+    margin-top: 25px;
+    margin-left: 230px;
+    display: grid;
+    height: 300px;
+    width: 800px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.Grid-3 > div {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.P4 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 4.svg);
+    background-size: cover;
+    overflow: hidden; 
+}
+.P5 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 5.svg);
+    background-size: cover;
+    overflow: hidden;  
+}
+.P6 .Card {
+    height: 300px;
+    width: 253px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 6.svg);
+    background-size: cover;
+    overflow: hidden; 
+}
+
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+.stars {
+    color: #20D3C2;
+    position: relative;
+    right: -83px;
+}
+
+/*-------------------- Flash sale bar --------------------- */
+
+.Flash-sale {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-color: #0E153D;
+    display: flex;
+}
+#left2 {
+    width: 150px;
+    height: 150px;
+    background-color: #20D3C2;
+    position: absolute;
+    left: 250px;
+}
+#right2 {
+    position: absolute;
+    left: 50px;
+}
+#flash {
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 28px;
+}
+#Flash-sale-right {
+    width: 50%;
+    position: relative;
+}
+#Flash-sale-left{
+    width: 50%;
+    position: relative;
+}
+#upp-to {
+    color: #fff;
+    font-size: 13;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#bar-txt {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    line-height: 22px;
+    margin-top: 50px;
+}
+.Timer{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+}
+.Timer h2{
+    font-size: 18px;
+    color: #20D3C2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.Timer p{
+    font-size: 12px;
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 13px;
+}
+.Timer div{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #fff;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #20D3C2;
+}
+
+.Timer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 400px;
+}
+
+.Timer div {
+    color: #20D3C2;
+}
+.Timer span {
+    color: black;
+    margin-left: 10px;
+}
+#countdown{
+    margin-top: 60px;
+}
+
+#shop-n{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    color: #20D3C2;
+    width: 130px;
+    position: relative;
+    top:-100px;
+    right:-130px;
+    transition: 0.3s;
+}
+#shop-n:hover{
+    background-color: #20D3C2;
+    color: #fff;
+}
+
+/*-------------------- Top Sellers Grid --------------------- */
+
+.Grid3 > div {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.Grid3 {
+    margin-top: 25px;
+    display: grid;
+    height: 500px;
+    width: 800px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+
+#pic-7 {
+    border-radius: 5px;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/10;
+}
+#pic-8 {
+    border-radius: 5px;
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+#pic-9 {
+    border-radius: 5px;
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 5/10;
+}
+#pic-7 .Card {
+    height: 505px;
+    width: 400px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 7.svg);
+    background-size: cover;
+    overflow: hidden; 
+}
+#pic-8 .Card {
+    height: 240px;
+    width: 400px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 8.svg);
+    background-size: cover;
+    overflow: hidden;    
+}
+#pic-9 .Card {
+    height: 260px;
+    width: 400px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/Product\ thumb\ 9.svg);
+    background-size: cover;
+    overflow: hidden; 
+}
+
+.card-menu {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height:150px;
+    border-radius: 25px;
+    justify-content: center;
+    float: right;
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    top:100%;
+    transition: 0.3s;
+    z-index: 1;
+ }
+ 
+ .Card:hover .card-menu{
+     top: 10px;
+ }
+ 
+  #pic-7 .background{
+     position: absolute;
+     bottom: 0;
+     background-color: #0E153D;
+     height: 7%;
+     width: 100%;
+     opacity: 0.90;
+     transition: 0.3s;
+ }
+
+ #pic-7 .Card:hover .background {
+     height: 100%;
+ }
+ #pic-7 .card:hover .card-body{
+     bottom: 25%;
+ }
+ #pic-8 .card:hover .card-body{
+    bottom: 45%;
+}
+#pic-9 .card:hover .card-body{
+    bottom: 40%;
+}
+ 
+
+/*-------------------- Subscribe Bar --------------------- */
+
+.Last-bar {
+    margin-top: 50px;
+    background-color: #ddd;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.subscribe {
+    padding: 30px;
+    margin-left: 120px;
+    line-height: 22px;
+}
+
+.subscribe h1 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 20px;
+    padding: 5px;
+}
+.subscribe sapn {
+    color: #20D3C2;
+}
+.subscribe p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 12px;
+}
+#subscribe-bar {
+    width: 350px;
+    height: 30px;
+    display: flexbox;
+    flex-direction: row;
+    background-color:#fff;
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+#subscribe-bar input {
+    border: none;
+    height: 30px;
+    width: 235px;
+    outline: none;
+    padding-left: 10px;
+}
+#subscribe-bar button{
+    background-color: #20D3C2;
+    color:#fff;
+    border:none;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#subscribe-bar button:hover{
+    background-color: #0E153D;
+}
+#dark {
+    height: 100%;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.429);
+    margin-left: 100px;
+}
+
+/*-------------------- The cpoyright bar --------------------- */
+
+#copyright{
+    width: 100%;
+    background-color:#080C24;
+    height: 80px;
+}
+#copyright p{
+    color:#fff;
+    padding-top: 30px;
+    margin-left: 300px;
+}
+
+
+
+
+/*-------------------- Styling the second page ---------------------
+-------------------------------------------------------------------- */
+
+.black-banner {
+    width: 100%;
+    background-color:#0E153D;
+    height: 80px;
+    position: relative;
+    top:-9px;
+}
+.black-banner a{
+    text-decoration: none;
+    color: #20D3C2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 15px;
+    
+}
+.black-banner span {
+    color: #fff;
+}
+#home{
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+#account{
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+#account:hover{
+    color:#fff;
+}
+#home:hover{
+    color: #fff;
+}
+.black-banner span:hover{
+    color: #20D3C2;
+}
+/*-------------------- Login form --------------------- */
+
+.login-form{
+    width: 400px;
+    height: 390px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+.login-form h1 {
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding: 15px;
+    margin-left: 5px;
+}
+#mail-adrs{
+    margin-top: -15px;
+}
+#mail-adrs p{
+    margin-left: 17px;
+}
+#mail-adrs span {
+    color: #20D3C2;
+}
+#mail-txt {
+    width: 90%;
+    margin-left: 17px;
+    height: 30px;
+    border: none;
+    margin-top: -10px;
+}
+
+#password p{
+    margin-left: 17px;
+}
+#password span {
+    color: #20D3C2;
+}
+#pass-txt {
+    width: 90%;
+    margin-left: 17px;
+    height: 30px;
+    border: none;
+    margin-top: -10px;
+}
+
+#submit-login{
+    width: 93%;
+    background-color: #20D3C2;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    height: 35px;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#submit-login:hover {
+    background-color:#0E153D;
+}
+
+#ch-box-lable{
+    font-size: 13px;
+}
+
+#forg-pass{
+    font-size: 13px;
+    float: right;
+    margin-right: 20px;
+    color: #20D3C2;
+}
+#forg-pass:hover {
+    color: #0E153D;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.login-form h2{
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+.login-form h2:before {
+    background-color: #000;
+    display: block;
+    width: 120px;
+    height: 1px;
+    content:"";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+}
+.login-form h2:after {
+    background-color: #000;
+    display: block;
+    width: 120px;
+    height: 1px;
+    content:"";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+}
+#another-login{
+    text-align: center;
+}
+
+/*-------------------- Register form --------------------- */
+
+.Register-form{
+    width: 400px;
+    height: 600px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+}
+.Register-form h1{
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#reg-ino{
+    width: 350px;
+    height: 200px;
+}
+#reg-ino p{
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    color: #778899;
+    padding-left: 20px;
+}
+.personal-info {
+    margin-top: -100px;
+}
+#pp-info{
+    width: 350px;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 12px;
+}
+#pp-info p a{
+    color: #20D3C2;
+}
+#pp-info a:hover {
+    color: #0E153D;
+}
+.grid-screen {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+/*-------------------- Adjusment size for other devices screens --------------------- */
+
+@media only screen and (max-device-width: 1024px) {
+    #text{font-size: 10px;}
+ }
+
+ @media only screen and (max-device-width: 1024px) {
+    .shopping-bar{right: -50px;}
+    .search-shopping-bar{right: 100px;}
+    .Grid-3 {margin-left:85px;}
+    #right{left:20px;}
+    .subscribe{margin-left: 30px;}
+    #dark{width: 300px;}
+ }
